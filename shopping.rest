@@ -1,0 +1,16 @@
+# Some test requests (VSCode REST Client extension)
+# Could also be tested via Postman
+
+### List items
+GET http://localhost:8080/list
+
+### Create item
+POST http://localhost:8080/list
+Content-Type: application/json
+
+{
+    "name": "cat"
+}
+
+### Remove Item
+DELETE http://localhost:8080/list/fef5c9d4-44c8-4053-8ba2-c56351ed7bc3
